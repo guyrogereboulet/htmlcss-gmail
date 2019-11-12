@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+ background-image: url(../img/wooden.jpg);
+ background-repeat: no-repeat;
+  /* background: red; */
+}
+
+/* header {
+  background:grey;
+} */
+
+hr {
+  border:1px solid white;
+  margin:2px;
+}
+
+button {
+  border-radius: 5px;
+}
+
+.container {
+  width: 700px;
+  margin: auto;
+}
+
+.header-top {
+  /* background: #8B0000; */
+  height: 80px;
+  line-height: 80px;
+}
+
+/* .header-bottom {
+  background: blue;
+} */
+
+.logo {
+  width: 80px;
+  vertical-align: middle;
+}
+
+.logo-title {
+  display: inline;
+  color: #FFFFFF
+}
+
+.title-unread{
+  color: #FFFFFF
+}
+
+.title-unread span {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+  padding: 5px;
+  background: orange;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.emails {
+  margin: 3px;
+}
+
+.email {
+  background: grey;
+  border: 1px solid black;
+  padding: 3px;
+}
+
+.email p{
+  display: inline;
+}
+
+.read {
+  background: white;
+}
+
+.sponsor {
+  text-align: center;
+  color: white;
+}
+.sponsor span {
+  font-style: italic;
+  font-size: 50%;
+  display: inline;
+}
