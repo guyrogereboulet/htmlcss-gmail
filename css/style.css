@@ -87,8 +87,28 @@ button {
   text-align: center;
   color: white;
 }
+
 .sponsor span {
   font-style: italic;
   font-size: 50%;
   display: inline;
+}
+
+.testo-quadrato {
+  display:inline;
+}
+
+.pie-di-pagina {
+  text-align: center;
+}
+
+.quadrato {
+  display: inline-block;
+  margin:30px;
+  border: 1px solid green;
+  background: yellow;
+  height: 40px;
+  width: 40px;
+  vertical-align: middle;
+  line-height: 10px;
 }
